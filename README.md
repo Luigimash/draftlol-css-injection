@@ -4,7 +4,7 @@ Copy paste the following code into the CSS field in your browser source on OBS o
 * Changes the background color to a shadw of white
 * Changes the font of the team names at the top
 
-You can change the background color by changing the `background-color` property in `.roomContainer`. If you uncomment the `background-image` property and link it to an image hosted online, you can also add a background image. 
+You can change the background color by changing the `background-color` property in `.roomContainer`. If you uncomment the `background-image` property and link it to an image hosted online, you can also add a background image. **Note that you can change the background to be TRANSPARENT if you so wish!**
 
 To add a different font, if you're changing to a font that *isn't* installed by default on machines, for example in my case Barlow Semicondensed, you need to define the font in @font-face first, and link to a download of the font via url. I'm linking to a font hosted on Google Fonts for this reason. 
 
@@ -38,7 +38,9 @@ body {
 
 .roomContainer {
 	background-color:#f0f0f0;
-	/*background-image: url("https://cdn.discordapp.com/attachments/");*/
+	/*background-image: url("https://cdn.discordapp.com/attachments/784215814948651019/1077042367317692416/draftlol_overlay_XDDD.png");*/
+	/*TRANSPARENCY COLOR 
+	background-color:rgba(0, 0, 0, 0);  */
 }
 
 .roomLock {
